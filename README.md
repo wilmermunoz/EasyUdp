@@ -22,6 +22,3 @@ Los mensajes recividos por easy_udp.m tiene formato String.
 por ejemplo
   [msg, host] = EasyUdp( 'RECEIVE', 5555, 200)
   EasyUdp( 'SEND',5555, 'www.ejemplo.com', INT8('¡Hola!'))
-
-Desarrollado en Matlab R2012
-Wilmer Munoz (wilmer.munoz@correounivalle.edu.co) 2017 -- Basado en Simple UDP (judp)
